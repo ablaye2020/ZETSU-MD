@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:ff0000,100:660000&text=ZETSU%20MD&fontColor=ffffff&fontSize=85&fontAlignY=40&animation=twinkling&desc=Powered%20By%20JOYBOY&descSize=20&descAlignY=65&stroke=ffffff&strokeWidth=1.2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:ff0000,100:660000&text=JOY-BOY&fontColor=ffffff&fontSize=85&fontAlignY=40&animation=twinkling&desc=Powered%20By%20JOYBOY&descSize=20&descAlignY=65&stroke=ffffff&strokeWidth=1.2" width="100%"/>
 
 <div style="
   margin-top: -60px;
@@ -22,24 +22,24 @@
 </p>
 
 <h1 align="center">
-  <img src="https://img.shields.io/badge/-⚔️_ZETSU--MD_⚔️-red?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0d1117&color=ff0000" />
+  <img src="https://img.shields.io/badge/-⚔️_JOY--BOY_⚔️-red?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0d1117&color=ff0000" />
 </h1>
 </p>
 </p>
-    <img src="https://komarev.com/ghpvc/?username=TON_PSEUDO&label=Views&color=ff0000&style=flat" alt="Profile Views" />
-    <img src="https://img.shields.io/github/stars/TON_PSEUDO/ZETSU-MD?color=ff0000&label=Stars&style=flat" alt="GitHub Stars" />
-    <img src="https://img.shields.io/github/forks/TON_PSEUDO/ZETSU-MD?style=flat&color=ff0000&logo=github&logoColor=white&label=Forks" alt="GitHub Forks" />
-    <img src="https://img.shields.io/github/followers/TON_PSEUDO?style=flat&color=ff0000&logo=github&logoColor=white&label=Followers" alt="GitHub Followers" />
-    <img src="https://img.shields.io/github/last-commit/TON_PSEUDO/ZETSU-MD?style=flat&color=ff0000&logo=git&logoColor=white&label=Last%20Commit" alt="Last Commit" />
-    <img src="https://img.shields.io/github/repo-size/TON_PSEUDO/ZETSU-MD?style=flat&color=ff0000&logo=database&logoColor=white&label=Repo%20Size" alt="Repo Size" />
-    <img src="https://img.shields.io/github/package-json/v/TON_PSEUDO/ZETSU-MD?style=flat&color=ff0000&logo=npm&logoColor=white&label=Version" alt="Package Version" />
+    <img src="https://komarev.com/ghpvc/?username=ablaye2020&label=Views&color=ff0000&style=flat" alt="Profile Views" />
+    <img src="https://img.shields.io/github/stars/ablaye2020/JOY-BOY?color=ff0000&label=Stars&style=flat" alt="GitHub Stars" />
+    <img src="https://img.shields.io/github/forks/ablaye2020/JOY-BOY?style=flat&color=ff0000&logo=github&logoColor=white&label=Forks" alt="GitHub Forks" />
+    <img src="https://img.shields.io/github/followers/ablaye2020?style=flat&color=ff0000&logo=github&logoColor=white&label=Followers" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/last-commit/ablaye2020/JOY-BOY?style=flat&color=ff0000&logo=git&logoColor=white&label=Last%20Commit" alt="Last Commit" />
+    <img src="https://img.shields.io/github/repo-size/ablaye2020/JOY-BOY?style=flat&color=ff0000&logo=database&logoColor=white&label=Repo%20Size" alt="Repo Size" />
+    <img src="https://img.shields.io/github/package-json/v/ablaye2020/JOY-BOY?style=flat&color=ff0000&logo=npm&logoColor=white&label=Version" alt="Package Version" />
   </p>
   
 </div>
 
 ---
 
-> **⚔️ ZETSU-MD - WhatsApp Bot by JOYBOY ⚔️**  
+> **⚔️ JOY-BOY - WhatsApp Bot by JOYBOY ⚔️**  
 
 ---
 
@@ -63,7 +63,7 @@
 
   <div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 4px solid #ff0000;">
     <p style="color: #ff0000; font-size: 16px;">🚀 1. Fork le dépôt :</p>
-    <a href='https://github.com/TON_PSEUDO/ZETSU-MD/fork' target="_blank">
+    <a href='https://github.com/ablaye2020/JOY-BOY/fork' target="_blank">
       <img src='https://img.shields.io/badge/FORK_LE_DÉPÔT-ff0000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000'/>
     </a>
   </div>
@@ -85,16 +85,6 @@
   
 ---
 
-## 🚀 Obtenir SESSION ID
-
-<div align="center">
-  <a href="https://TON_SITE_DE_PAIRAGE.onrender.com">
-    <img src="https://img.shields.io/badge/💫_OBTENIR_SESSION_ID-ff0000?style=for-the-badge&logo=codeberg&logoColor=white&labelColor=1e1b4b" alt="Session ID"/>
-  </a>
-</div>
-
----
-
 ## 📡 PLATEFORMES DE DÉPLOIEMENT
 
 <div align="center">
@@ -102,13 +92,13 @@
 ### 🔥 DÉPLOIEMENT RAPIDE
 
 <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/TON_PSEUDO/ZETSU-MD" target="_blank">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/ablaye2020/JOY-BOY" target="_blank">
     <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"/>
   </a>
-  <a href="https://railway.app/new/template?template=https://github.com/TON_PSEUDO/ZETSU-MD" target="_blank">
+  <a href="https://railway.app/new/template?template=https://github.com/ablaye2020/JOY-BOY" target="_blank">
     <img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/>
   </a>
-  <a href="https://render.com/deploy?repo=https://github.com/TON_PSEUDO/ZETSU-MD" target="_blank">
+  <a href="https://render.com/deploy?repo=https://github.com/ablaye2020/JOY-BOY" target="_blank">
     <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=ff0000"/>
   </a>
 </p>
@@ -140,7 +130,7 @@
 <h2 align="center">🪀 CANAL OFFICIEL</h2>
 
 <div align="center">
-  <a href="https://whatsapp.com/channel/..." target="_blank">
+  <a href="https://whatsapp.com/channel/0029VbBGPvF8aKvKN8YQft2d" target="_blank">
     <img src="https://img.shields.io/badge/REJOINDRE_LE_CANAL-ff0000?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=111111" alt="Join WhatsApp Channel"/>
   </a>
 </div>
@@ -150,7 +140,7 @@
 ## Crédits ⚒️
 
 <p><strong>Créateur :</strong><br>
-JOYBOY (𝐙𝐄𝐓𝐒𝐔-MD)</p>
+JOYBOY (JOY-BOY)</p>
 
 ---
 
@@ -198,7 +188,7 @@ Ce projet est sous licence <strong>Apache License 2.0</strong>
 
 ---
 
-<h3 align="center">🙏 Merci d'utiliser 𝐙𝐄𝐓𝐒𝐔-MD !</h3>
+<h3 align="center">🙏 Merci d'utiliser JOY-BOY !</h3>
 <p align="center">
   Si tu aimes ce projet, laisse une ⭐ sur GitHub.<br>
   Made with ❤️ by <strong>JOYBOY</strong>
