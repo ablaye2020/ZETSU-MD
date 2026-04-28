@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝐙𝐄𝐓𝐒𝐔-MD • PAIRING CODE</title>
+    <style>
+        body {
+            background: radial-gradient(circle at 30% 10%, #0a0000, #000);
+            font-family: 'Segoe UI', system-ui;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(0,0,0,0.85);
+            backdrop-filter: blur(10px);
+            border-radius: 48px;
+            border: 2px solid #ff4444;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 0 40px rgba(255,0,0,0.3);
+        }
+        h1 {
+            background: linear-gradient(135deg, #FFD966, #FF3A3A);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 2rem;
+        }
+        input {
+            width: 100%;
+            padding: 16px;
+            background: #111;
+            border: 2px solid #ff4444;
+            border-radius: 60px;
+            color: white;
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 20px 0;
+        }
+        button {
+            background: linear-gradient(95deg, #2e0a02, #5e1510);
+            border: 2px solid #ff5533;
+            border-radius: 60px;
+            padding: 14px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            width: 100%;
+            cursor: pointer;
+        }
+        .code {
+            font-size: 2rem;
+            letter-spacing: 8px;
+            background: #000;
+            padding: 15px;
+            border-radius: 20px;
+            margin: 15px 0;
+            font-family: monospace;
+        }
+        .result { margin-top: 20px; display: none; }
+        .error { color: #ff8888; }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h1>🔥 𝐙𝐄𝐓𝐒𝐔-MD 🔥</h1>
+    <p>Code à 8 chiffres</p>
+    <input type="tel" id="numero" placeholder="221783352603">
+    <button id="btn">GÉNÉRER LE CODE</button>
+    <div id="result" class="result"></div>
+</div>
+<script>
+    const btn = document.getElementById('btn');
+    const numeroInput = document.getElementById('numero');
+    const resultDiv = document.getElementById('result');
+
+    btn.onclick = async () => {
+        let numero = numeroInput.value.trim().replace(/[^0-9]/g, '');
+        if (!numero || numero.length < 10) {
+            resultDiv.style.display = 'block';
+            resultDiv.innerHTML = '<div class="error">❌ Numéro invalide</div>';
+            return;
+        }
+        btn.disabled = true;
+        btn.innerText = '⏳ CONNEXION...';
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = '<div>Connexion à WhatsApp...</div>';
+
+        try {
+            const res = await fetch('/pair', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ numero })
+            });
+            const data = await res.json();
+            if (data.success && data.code) {
+                resultDiv.innerHTML = `<div>✅ Code :</div><div class="code">${data.code}</div><div>Saisis-le dans WhatsApp > Appareils liés</div>`;
+            } else {
+                resultDiv.innerHTML = `<div class="error">❌ ${data.error || 'Erreur'}</div>`;
+            }
+        } catch (e) {
+            resultDiv.innerHTML = '<div class="error">❌ Erreur réseau</div>';
+        }
+        btn.disabled = false;
+        btn.innerText = 'GÉNÉRER LE CODE';
+    };
+</script>
+</body>
+</html>
